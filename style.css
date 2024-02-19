@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+
+body{
+    background-color: white; /*#eef1ff*/
+    margin: 0;
+}
+
+header{
+    background-color: #c6cfff;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h1{
+    display: inline-block;
+    font-family:"Changa", sans-serif;
+    font-size: 40px;
+    letter-spacing:10px;
+}
+
+.content{
+    position: relative;
+    margin: 50px auto;
+    display: flex; /*Que la caja sea flexible*/
+    /*justify-content: space-around;*/ /*Espacio entre cada div interno*/
+    width:1040px;
+    height: 550px;
+    background-color: rgba(57, 45, 166, 0.367);
+    flex-direction: row; /*Dirección: column (se ubican en columnas), column-reverse (de abajo hacia arriba)*/
+    /*row(por defecto,filas), row-reverse*/
+    border-radius: 30px;
+    scale: 1.1;
+}
+
+#box1{
+    width: 520px;
+    height: 320px;
+    background-color: rgba(57, 45, 166, 0.367);
+    margin-top:30px;
+    margin-left:60px;
+    border-radius: 30px;
+}
+
+#texto-usuario{
+    margin: 20px;
+    width: 475px;
+    height: 275px;
+    resize: none;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#texto-usuario::placeholder{
+    font-size: 20px;
+}
+
+#box2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*Alinear verticalmente*/
+    align-items: center; /*Alinear horizontalmente*/
+    width: 300px;
+    height: 150px;
+    background-color: rgba(57, 45, 166, 0.367);
+    border-radius: 20px;
+    margin-top:30px;
+    right:105px;
+}
+
+.button-box2{
+    width:200px;
+    height: 60px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: #4331c9;
+    border: 2px solid white;
+}
+
+.button-box2:hover{
+    font-size: 20px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+#box3{
+    position: absolute;
+    display: flex;
+    right:80px;
+    top: 164px;
+    width: 350px;
+    height: 155px;
+    margin-top: 26px;
+    background-color: #4331c994;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#box3 p{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    width: 320px;
+    height: 130px;
+    padding: 5px;
+    overflow:scroll;
+}
+
+
+
+#box4{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 70px;
+    background-color: rgba(57, 45, 166, 0.367);
+    left: 390px;
+    right: 390px;
+    bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+.button-copy{
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #4331c9;
+    border: 2px solid white;
+    color: white;
+}
+
+.button-copy:hover{
+    border-radius: 60px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    background-color: #c6cfff;
+    width: 100%;
+    height: 120px;
+    bottom: 0%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.contactos{
+    position: absolute;
+    font-size: 30px;
+    text-align: left;
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.redes-sociales {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 0.06;
+    right: 480px;
+    bottom: 12px;
+}
+
+.redes-sociales2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 0.06;
+    top: 23px;
+    right: 1875px;
+}
+
+
+.logos {
+    margin: 100px;
+}
+
+
+li{
+    list-style: none;
+}

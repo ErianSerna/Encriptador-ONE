@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ENCRIPTADOR</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+  </head>
+  <body>
+    <header>
+      <img src="img/Logo.png" alt="Logo alura" />
+      <h1>ENCRIPTADOR</h1>
+    </header>
+    <div class="content">
+      <div id="box1">
+        <textarea
+          name=""
+          id="texto-usuario"
+          cols="30"
+          rows="10"
+          placeholder="Introduce el texto aquí!"
+        ></textarea>
+      </div>
+
+      <div id="box2">
+        <button class="button-box2" onclick="MensajeBotonEncriptar();">
+          ENCRIPTAR
+        </button>
+        <button class="button-box2" onclick="MensajeBotonDesencriptar();">
+          DESENCRIPTAR
+        </button>
+      </div>
+
+      <div id="box3">
+        <p id="p-resultado">Aún no se ha encriptado o desencriptado nada</p>
+      </div>
+
+      <div id="box4">
+        <button class="button-copy" onclick="CopiarTexto();">COPIAR</button>
+      </div>
+    </div>
+    <footer>
+      <div class="contactos">
+        <ul>
+          <li><a>Erian Serna</a></li>
+          <li><a>Carolina Ubes</a></li>
+        </ul>
+      </div>
+    <div class="redes-sociales">
+        <a href="https://github.com/ErianSerna">
+            <img class="logos" src="img/logotipo-de-github.png" alt="logo-github">
+        </a>
+        <a href="https://www.linkedin.com/in/erian-serna/">
+            <img class="logos" src="img/linkedin.png" alt="logo-linkedin">
+        </a>
+    </div>
+    <div class="redes-sociales2">
+        <a href="https://github.com/Carolinaubes">  
+            <img class="logos" src="img/logotipo-de-github.png" alt="logo-github2">
+        </a>
+      
+        <a href="https://www.linkedin.com/in/carolina-uribe-builes-94015b2ab/">
+            <img class="logos" src="img/linkedin.png" alt="logo-linkedin2">
+        </a>
+    </div>
+        
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
