@@ -1,5 +1,3 @@
-// Poner un mensaje flotante para cuando aparezca el mensaje negación
-
 let listaPalabra = [];
 let listaNegra = ["A","E","I","O","U","Á","É","Í","Ó","Ú","á","é","í","ó","ú", "", /[\^*@!"#$%&/()=?¡!¿'\\]/gi];
 let mensajeNegacion = "Solo minúsculas, sin acéntos ni caractéres especiales!";
